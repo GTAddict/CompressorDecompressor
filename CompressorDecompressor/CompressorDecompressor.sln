@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypes", "DataTypes\DataTypes.vcxproj", "{4938A650-76E3-40DF-88CD-8B039192D85F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompressorCmd", "CompressorCmd\CompressorCmd.vcxproj", "{85D221FE-A684-4287-90E7-BE3AE60E1B1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4938A650-76E3-40DF-88CD-8B039192D85F} = {4938A650-76E3-40DF-88CD-8B039192D85F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecompressorCmd", "DecompressorCmd\DecompressorCmd.vcxproj", "{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4938A650-76E3-40DF-88CD-8B039192D85F} = {4938A650-76E3-40DF-88CD-8B039192D85F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWriter", "ExcelWriter\ExcelWriter.csproj", "{FC59BED8-6A46-48D7-9B37-65F259E726C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Debug|Any CPU.Build.0 = Debug|Win32
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Debug|x86.ActiveCfg = Release|Win32
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Debug|x86.Build.0 = Release|Win32
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Release|Any CPU.Build.0 = Release|Win32
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Release|x86.ActiveCfg = Release|Win32
+		{4938A650-76E3-40DF-88CD-8B039192D85F}.Release|x86.Build.0 = Release|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Debug|Any CPU.Build.0 = Debug|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Debug|x86.ActiveCfg = Release|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Debug|x86.Build.0 = Release|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Release|Any CPU.Build.0 = Release|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Release|x86.ActiveCfg = Release|Win32
+		{85D221FE-A684-4287-90E7-BE3AE60E1B1A}.Release|x86.Build.0 = Release|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Debug|Any CPU.Build.0 = Debug|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Debug|x86.ActiveCfg = Release|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Debug|x86.Build.0 = Release|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Release|Any CPU.ActiveCfg = Release|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Release|Any CPU.Build.0 = Release|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Release|x86.ActiveCfg = Release|Win32
+		{66BD7A9E-7C37-41EA-9C4F-07AF358BABC6}.Release|x86.Build.0 = Release|Win32
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC59BED8-6A46-48D7-9B37-65F259E726C6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
